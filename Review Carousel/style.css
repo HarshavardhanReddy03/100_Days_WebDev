@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3f2fd;
+}
+
+.testimonial
+{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    row-gap: 30px;
+    background-color: #e3f2fd;
+    overflow: hidden;
+
+}
+.testimonial .image
+{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin-bottom: 20px; */
+}
+
+.image
+{
+    margin-bottom: 20px;
+}
+
+.testimonial .slide
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.slide p{
+    padding: 0 100px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    color: brown;
+}
+
+.slide .quote-icon
+{
+    font-size: 30px;
+    color: blue;
+}
+
+.slide .details
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details .name
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.details .job
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
