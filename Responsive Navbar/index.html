@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#" id="sign">Sign In/Up</a></li>
+        </ul>
+        <ul>
+            
+            <li id="company"><a href="#">TravelGO</a></li>
+            <li class="hideOnMobile"><a href="#">Explore</a></li>
+            <li class="hideOnMobile"><a href="#">Packages</a></li>
+            <li class="hideOnMobile"><a href="#">Reviews</a></li>
+            <li class="hideOnMobile"><a href="#" id="sign">Sign In/Up</a></li>
+            <li class="menuBtn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
