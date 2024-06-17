@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Science Fiction",
+      "director": "Christopher Nolan",
+      "release_year": 2010,
+      "rating": 8.8
+    },
+    {
+      "id": "2",
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "release_year": 1994,
+      "rating": 9.3
+    },
+    {
+      "id": "3",
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "director": "Quentin Tarantino",
+      "release_year": 1994,
+      "rating": 8.9
+    },
+    {
+      "id": "4",
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "release_year": 2008,
+      "rating": 9.0
+    },
+    {
+      "id": "5",
+      "title": "Fight Club",
+      "genre": "Drama",
+      "director": "David Fincher",
+      "release_year": 1999,
+      "rating": 8.8
+    }
+  ]
+}
